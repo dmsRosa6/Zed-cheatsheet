@@ -3,8 +3,8 @@
 A terminal cheat sheet for [Zed](https://zed.dev)'s keyboard shortcuts, built
 with the [Glyph](https://github.com/dmsRosa6/Glyph) TUI framework for Go.
 
-The content is the [cheatsheets.zip Zed page](https://cheatsheets.zip/zed)
-(Linux / Windows bindings), reorganised into an interactive, searchable view.
+The content is the base [cheatsheets.zip Zed page](https://cheatsheets.zip/zed)
+(Linux / Windows bindings), reorganised into an interactive, searchable view. Like me you can add your own configuration, but honestly base Zed is very decent for anyone.
 
 ```
   Zed Cheat Sheet                                                  Linux / Windows  ·  56 shortcuts
