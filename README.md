@@ -25,6 +25,45 @@ The content is the [cheatsheets.zip Zed page](https://cheatsheets.zip/zed)
 
 This is for personal use and mostly vibe coded using my own framework.
 
+## Installation
+
+### Build from source
+
+Make sure you have [Go](https://go.dev/dl/) installed.
+
+Clone the repository and build the executable:
+
+    git clone https://github.com/USERNAME/REPOSITORY.git
+    cd REPOSITORY
+    go build -o APP_NAME .
+
+### Install
+
+Move the executable to a directory on your `PATH`:
+
+    mkdir -p ~/.local/bin
+    install -m 755 APP_NAME ~/.local/bin/APP_NAME
+
+If `~/.local/bin` isn't already on your `PATH`, add the following to your shell configuration (for example, `~/.bashrc` for Bash):
+
+    export PATH="$HOME/.local/bin:$PATH"
+
+Reload your shell configuration:
+
+    source ~/.bashrc
+
+### Usage
+
+Launch the application from any terminal:
+
+    APP_NAME
+
+Replace `USERNAME`, `REPOSITORY`, and `APP_NAME` with your GitHub username, repository name, and desired command name.
+
+### Prebuilt binaries
+
+You can also download a prebuilt executable for your platform from the project's [GitHub Releases](https://github.com/USERNAME/REPOSITORY/releases), if one is available.
+
 ## Run it
 
 Requires Go 1.24+.
