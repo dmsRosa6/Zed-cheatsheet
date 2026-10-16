@@ -1,11 +1,5 @@
 # Zed-cheatsheet
 
-## ⚠️ Disclaimer
-
-This is for personal use and mostly vibe coded using my own framework.
-
-## Overview
-
 A terminal cheat sheet for [Zed](https://zed.dev)'s keyboard shortcuts, built
 with the [Glyph](https://github.com/dmsRosa6/Glyph) TUI framework for Go.
 
@@ -26,6 +20,10 @@ The content is the [cheatsheets.zip Zed page](https://cheatsheets.zip/zed)
  ╰──────────────────╯ ╰───────────────────────────────────────────────────────── 1/8 ─╯
   j/k ↑↓ select   h/l ←→ 1-7 category   / search   Tab focus   Esc clear   Ctrl+C quit
 ```
+
+## ⚠️ Disclaimer
+
+This is for personal use and mostly vibe coded using my own framework.
 
 ## Run it
 
@@ -119,5 +117,3 @@ row count (56 on the source page) and the search behaviour.
 - The module path `github.com/example/zed-cheatsheet` is a placeholder:
   find-and-replace it in `go.mod` and the Go imports with your own.
 - Needs a real terminal at least 64×12. In a pipe or CI use `-list`.
-# Zed-cheatsheet
-# Zed-cheatsheet
