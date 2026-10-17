@@ -82,21 +82,21 @@ Two things can have keyboard focus, and `Tab` / `Shift+Tab` switches between
 them (Glyph's `FocusManager`): the **table** (browse mode, the default) and the
 **search field**.
 
-| Browse mode (table focused)   | Action                                      |
-| ----------------------------- | ------------------------------------------- |
-| `j` / `k` or `↓` / `↑`        | Move the selection (the table scrolls)      |
-| `d` / `u`                     | Half a page down / up                       |
-| `g` / `G` or `Home` / `End`   | First / last row                            |
-| `h` / `l`, `[` / `]`, `←` / `→` | Previous / next category                  |
-| `1`–`7`                       | Jump to All, Zed, File, Edit, Selection, View, Go |
-| `/`                           | Focus the search field                      |
+| Browse mode (table focused)     | Action                                            |
+| ------------------------------- | ------------------------------------------------- |
+| `j` / `k` or `↓` / `↑`          | Move the selection (the table scrolls)            |
+| `d` / `u`                       | Half a page down / up                             |
+| `g` / `G` or `Home` / `End`     | First / last row                                  |
+| `h` / `l`, `[` / `]`, `←` / `→` | Previous / next category                          |
+| `1`–`7`                         | Jump to All, Zed, File, Edit, Selection, View, Go |
+| `/`                             | Focus the search field                            |
 
-| Search field focused | Action                                              |
-| -------------------- | --------------------------------------------------- |
-| *type*               | Filter live across every category                   |
-| `Enter`              | Back to the table to browse the results             |
-| `Esc`                | Clear the search and go back to the table           |
-| `↑` / `↓`            | Still move the selection                            |
+| Search field focused | Action                                    |
+| -------------------- | ----------------------------------------- |
+| _type_               | Filter live across every category         |
+| `Enter`              | Back to the table to browse the results   |
+| `Esc`                | Clear the search and go back to the table |
+| `↑` / `↓`            | Still move the selection                  |
 
 Anywhere: `Tab` / `Shift+Tab` switch focus, `Esc` clears the search, `Ctrl+C` quits.
 
@@ -156,3 +156,7 @@ row count (56 on the source page) and the search behaviour.
 - The module path `github.com/example/zed-cheatsheet` is a placeholder:
   find-and-replace it in `go.mod` and the Go imports with your own.
 - Needs a real terminal at least 64×12. In a pipe or CI use `-list`.
+
+## Demo
+
+![Demo](demo.gif)
